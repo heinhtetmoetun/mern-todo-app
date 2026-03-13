@@ -4,10 +4,10 @@ WORKDIR /usr/src/app
 
 COPY TODO/todo_backend/package*.json ./
 
-RUN npm install
+RUN npm install --only=production
 
 COPY TODO/todo_backend .
 
-EXPOSE 3000
+EXPOSE 5000
 
 CMD ["node", "server.js"]
