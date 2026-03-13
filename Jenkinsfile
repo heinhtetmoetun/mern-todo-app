@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         DOCKER_HUB_USER = '6530394'
-        IMAGE_NAME = 'todo-appf'
+        IMAGE_NAME = 'finead-todo-app'
         DOCKER_HUB_CREDS = 'docker-hub-credentials'
     }
 
